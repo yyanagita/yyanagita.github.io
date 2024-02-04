@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Raleway:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    margin: auto;
+}
+
+.Lean-more{
+    text-decoration: none;
+    display: inline-block;
+    padding: .5em;
+    background-color: #a4582ccc;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-top: .5em;
+    border-radius: 10px 10px 10px 10px;
+}
+
+/********* (1) Header area **********/
+.nav {
+    overflow: auto;
+    width: 85%;
+    margin: 1em auto;
+}
+
+.nav ul {
+    width: auto;
+    text-align: center;
+    padding-top: 1em;
+    margin: auto;
+}
+
+.nav li{
+    display: inline-block;
+    margin-left: 1em;
+}
+
+.nav li a{
+    font-family: 'Raleway', sans-serif;
+    color:#060606;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/********* (2) Banner area **********/
+.banner{
+    background-image: url('../images/atf.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    color: #FFF;
+    text-align: right;
+
+}
+
+.banner-text{
+    position: absolute;
+    top:30%;
+    left: 40%;
+}
+
+.banner-text h2{
+    font-size: 5em;
+}
+
+/********* (3) introduce area **********/
+.Main{
+    width: 85%;
+    margin: 4em auto;
+}
+
+.Main h3{
+    margin: 3em auto;
+    padding: 0 auto;
+    text-align: center;
+}
+
+.intoroduce-image{
+    display: inline-block;
+    object-fit: cover;
+}
+
+.intorduce-text{
+    display: inline-block;
+    width: 63%;
+    object-fit: contain;
+    position:relative;
+    bottom: 260px;
+}
+.intorduce2{
+    margin-top: 10em;
+}
+
+
+
+/********* (4) footer area **********/
+.footer{
+    background-color: #c7a17a;
+    width: 100%;
+    float: left;
+    position: relative;
+    padding: 2em;
+    clear: both;
+}
+
+.book-schedule{
+    width: 40%;
+    height: 250px;
+    margin-right: 5%;
+    margin-left: 5%;
+    float: left;
+    position: relative;
+}
+.book-schedule h3{
+    text-align: center;
+}
+form input, form label{
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+.label{
+    float: left;
+    margin-top: 2em;
+    position: absolute;
+    left: 0;
+}
+
+.input{
+    float: left;
+    width: 40%;
+    margin-top: 2em;
+    position: absolute;
+    right: 0;
+    line-height: 2em;
+}
+
+#submit{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #060606;
+    color: #fff;
+}
+
+.Booking-List{
+    width: 40%;
+    text-align: center;
+    float: left;
+}
+
+.Booking-List table{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+.Booking-List th,td{
+    padding: 10px;
+}
+
+.Booking-List th{
+    color: #FFF;
+    background-color: #060606;
+}
+
+.Booking-List table tr:nth-child(2n+1) {
+    background-color: rgba(145, 143, 143, 0.993);
+ }
+
+.Reserved{
+    background-color: green;
+}
+
+.Pending{
+    background-color: orange;
+}
+
+/********* (4) Copyright area **********/
+.Copyright {
+    text-align: center;
+    position: relative;
+    top: 0.5em;
+    transform: rotateY('-50%');
+}
